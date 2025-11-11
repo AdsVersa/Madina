@@ -116,3 +116,54 @@ jQuery(".eid-collection-slider").owlCarousel({
       },
     },
   });
+jQuery(".leadership-team-slider").owlCarousel({
+    loop: true,
+    margin: 0,
+    items: 1,
+    nav: true,
+    dots: false,
+    autoHeight: true,
+    responsive: {
+      0: {
+        items: 1,
+        center: false,
+        autoHeight: true,
+      },
+      575: {
+        center: false,
+        items: 1,
+        margin: 0,
+      },
+      700: {
+        nav: true,
+        dots: false,
+        center: false,
+        items: 2,
+        margin: 20,
+      },
+      991: {
+        nav: true,
+        dots: false,
+        center: false,
+        items: 3,
+        margin: 20,
+      },
+      1300: {
+        nav: true,
+        dots: false,
+        center: false,
+        items: 1,
+        margin: 0,
+      },
+    },
+  });
+
+  jQuery(".client_logo_slider").owlCarousel({
+    loop: false,
+    margin: 10,
+    items: 5,
+    nav: true,
+    dots: false,
+    autoHeight: true,
+   
+  });

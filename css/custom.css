@@ -338,6 +338,17 @@ section.why-choose-section .row { justify-content: center; }
 .why-choose-btn { padding-top: 20px; }   
 
 
+.why-choose-us {
+    border: 1px solid #fff;
+    padding: 30px;
+}
+.why-choose-us h2 {
+    font-size: 20px;
+}
+.why-choose-us p {
+    font-size: 18px;
+}
+
 
 /*  */
 .owl-carousel { position: relative; padding: 0 30px; }
@@ -462,6 +473,54 @@ footer p {
 }
 .footer-social {
     padding-top: 20px;
+}
+
+/* about us page */
+.client_logo h5{
+    font-size: 13px;
+}
+.client_logo figure{
+    margin-right: 0 !important;
+}
+section.hero-section.inner .carousel-item {
+    text-align: center;
+    padding: 190px 0 150px;
+}
+.client_logo figure {
+    margin-bottom: 10px;
+}
+.leadership-team-box {
+    background: #E2EFFF;
+    box-shadow: 0 3.233px 20.203px 0 rgba(0, 0, 0, 0.10);
+    padding: 15px 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.leadership-team-box .default-css h5 {
+    color: #000;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+}
+.leadership-team-box .default-css p {
+    color: #000;
+}
+.leadership-team-box .col-sm-8 {
+    padding: 15px;
+}
+.leadership-team-box .default-css figure {
+    max-width: 60px;
+    margin-bottom: 15px;
+}
+.leadership-team-img figure img {
+    width: 100%;
+    border-radius: 10px;
+}
+section.our-expertise-section ul {
+    display: inline-block;
+    text-align: left;
 }
 
 
