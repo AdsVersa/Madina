@@ -337,10 +337,13 @@ section.why-choose-section .row { justify-content: center; }
 .why-choose .default-css h2 { color: #FFF; font-family: Poppins; font-size: 32px; font-style: normal; font-weight: 600; line-height: 34px; }
 .why-choose-btn { padding-top: 20px; }   
 
-
+section.why-choose-section .col-sm-4 {
+    padding: 15px;
+}
 .why-choose-us {
     border: 1px solid #fff;
     padding: 30px;
+    height: 100%;
 }
 .why-choose-us h2 {
     font-size: 20px;
