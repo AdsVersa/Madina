@@ -532,8 +532,18 @@ section.our-expertise-section ul {
     right: 15px;
     z-index: 1;
 }
-
-
+section.why-choose-section.service_reverse .service_reverse_row .col-sm-12:nth-child(even) .why-choose{
+    flex-direction: row-reverse;
+}
+section.why-choose-section.service_reverse .service_reverse_row .why-choose {
+    border-radius: 20px;
+    border: 2px solid #FFF !important;
+    padding:  30px 30px;
+    margin: 20px 0;
+}
+section.why-choose-section.service_reverse .service_reverse_row .col-sm-12:nth-child(even) .why-choose figure {
+    margin: 0 0 0 50px;
+}
 
 @media (min-width: 900px) {
 /*------------- mega menu ---------------*/
