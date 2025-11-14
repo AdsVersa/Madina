@@ -158,6 +158,51 @@ jQuery(".leadership-team-slider").owlCarousel({
     },
   });
 
+jQuery(document).ready(function(){
+jQuery(".product-gallery-slider").owlCarousel({
+    loop: true,
+    margin: 10,
+    items: 4,
+    nav: true,
+    dots: false,
+    autoHeight: true,
+    responsive: {
+      0: {
+        items: 1,
+        center: false,
+        autoHeight: true,
+      },
+      575: {
+        center: false,
+        items: 2,
+        margin: 0,
+      },
+      700: {
+        nav: true,
+        dots: false,
+        center: false,
+        items: 2,
+        margin: 20,
+      },
+      991: {
+        nav: true,
+        dots: false,
+        center: false,
+        items: 3,
+        margin: 20,
+      },
+      1300: {
+        nav: true,
+        dots: false,
+        center: false,
+        items: 4,
+        margin: 10,
+      },
+    },
+  });
+
+});
+
   jQuery(".client_logo_slider").owlCarousel({
     loop: false,
     margin: 10,
