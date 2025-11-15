@@ -357,7 +357,7 @@ section.why-choose-section .col-sm-4 {
 .owl-carousel { position: relative; padding: 0 30px; }
 .owl-nav { text-align: center; position: absolute; top: 50%; transform: translateY(-50%); width: 100%; left: 0; right: 0; }
 .owl-carousel .owl-nav span{ display: none !important; }
-.owl-carousel .owl-nav .owl-next, .owl-carousel .owl-nav .owl-prev { height: 40px; width: 40px; border-radius: 0; border: 1px solid #636669 !important; position: absolute; }
+.owl-carousel .owl-nav .owl-next, .owl-carousel .owl-nav .owl-prev { height: 40px; width: 40px; border-radius: 50px; border: 1px solid #636669 !important; position: absolute; }
 .owl-carousel .owl-nav .owl-next:hover, .owl-carousel .owl-nav .owl-prev:hover { border-color: #06B0B5 !important; }
 .owl-carousel .owl-nav .owl-prev { background: #fff url(../images/left-arrow-hover.png) no-repeat !important; background-position: center !important; left: -30px; }
 .owl-carousel .owl-nav .owl-next { background:  #fff url(../images/owl-next-hover.png) no-repeat !important; background-position: center !important; right: -30px;}
