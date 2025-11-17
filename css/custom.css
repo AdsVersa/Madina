@@ -188,7 +188,8 @@ a.theme-btn.btn-white:hover { border-color: #DC260D; color: #fff;  }
 
 /*--banner--*/
 section.hero-section { position: relative;  }
-section.hero-section .carousel-item { position: relative; background-repeat: no-repeat !important; background-size: cover !important; z-index: 1; padding: 100px 0 220px; }
+section.hero-section .carousel-item { position: relative; background-repeat: no-repeat !important; background-size: cover !important; z-index: 1; }
+section.hero-section .carousel-item>figure>img{width: 100%;}
 section.hero-section .carousel-item:before { position: absolute; content: ''; width: 100%; height: 100%; left: 0; z-index: 0; background: linear-gradient(90deg, rgba(0, 0, 0, 0.60) 0.09%, rgba(102, 102, 102, 0.00) 98.86%); top: 0; }
 .banner-caption-left { position: relative; }
 .banner-title { margin-bottom: 30px; color: #fff; font-family: Montserrat; font-size: 70px; font-style: normal; font-weight: 700; line-height: 80px; text-transform: uppercase; }
@@ -679,9 +680,6 @@ section.counter-section {
     padding: 14px 0;
     margin-top: -125px;
 }
-section.hero-section .carousel-item {
-    padding: 90px 0 160px;
-}
 .banner-btns {
     padding-top: 10px;
 }
@@ -1058,9 +1056,6 @@ footer p {
         padding: 10px 0;
         margin-top: -95px;
     }
-    section.hero-section .carousel-item {
-        padding: 50px 0 110px;
-    }
         .slide-arrow {
         right: 1%;
         top: 29%;
@@ -1274,9 +1269,6 @@ section.hero-section .carousel-item:before {
 .banner-title br {
     display: none;
 }
-    section.hero-section .carousel-item {
-        padding: 40px 0 80px;
-    }
         .banner-btns {
         padding-top: 5px;
     }
